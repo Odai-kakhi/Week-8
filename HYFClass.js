@@ -1,7 +1,7 @@
 import Student from "./Student";
 import Teacher from "./Teacher";
 
-class HYFClass {
+export default class HYFClass {
   constructor(members) {
     this.members = members || [];
     let membersIsArray = this.members instanceof Array;
